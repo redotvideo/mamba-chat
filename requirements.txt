@@ -1,0 +1,4 @@
+torch==2.1.0
+transformers==4.35.0
+causal-conv1d==1.0.0
+mamba-ssm==1.0.1
