@@ -7,7 +7,7 @@ The model is based on Albert Gu's and Tri Dao's work *Mamba: Linear-Time Sequenc
 To learn more, you can:
 
 - Take a look at the model on [Huggingface](https://huggingface.co/havenhq/mamba-chat)
-- Join [Haven](https://haven.run/)'s [Discord](https://discord.com/invite/JDjbfp6q2G)
+- Join the [Haven](https://haven.run/) Community [Discord](https://discord.com/invite/JDjbfp6q2G)
 
 
 <br>
