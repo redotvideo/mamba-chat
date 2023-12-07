@@ -14,7 +14,7 @@ To learn more, you can:
 
 ## Run Mamba-Chat
 
-We provide code that lets you run inference on mamba-chat as well as our fine-tuning code. Here are the steps to get started:
+We provide code for testing and fine-tuning our model. Here are the steps to get started:
 
 
 **Clone repository and install dependencies:**
