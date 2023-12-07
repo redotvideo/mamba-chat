@@ -22,9 +22,7 @@ We provide code for testing and fine-tuning our model. Here's how to get started
 **Clone repository and install dependencies:**
 ```
 git clone https://github.com/havenhq/mamba-chat.git
-
 cd mamba-chat
-
 pip install -r requirements.txt
 ```
 
