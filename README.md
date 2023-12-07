@@ -4,12 +4,10 @@ Mamba-Chat is the first chat language model based on a state-space model archite
 
 The model is based on Albert Gu's and Tri Dao's work **Mamba: Linear-Time Sequence Modeling with Selective State Spaces** ([paper](https://arxiv.org/pdf/2312.00752.pdf)) as well as their [model implementation](https://github.com/state-spaces/mamba). This repository provides training / fine-tuning code for the model based on some modifications of the Huggingface Trainer class.
 
-Mamba-Chat is based on Mamba-2.8B and was fine-tuned on 16,000 samples of the [HuggingFaceH4/ultrachat_200k](https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k) dataset.
-
-To learn more, you can:
+Mamba-Chat is based on Mamba-2.8B and was fine-tuned on 16,000 samples of the [HuggingFaceH4/ultrachat_200k](https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k) dataset. To learn more, you can:
 
 - Take a look at the model on [Huggingface](https://huggingface.co/havenhq/mamba-chat) 🤗
-- Join the [Haven](https://haven.run/) Community [Discord](https://discord.com/invite/JDjbfp6q2G) 🧑‍🤝‍🧑
+- Talk to us on the [Haven](https://haven.run/) Community [Discord](https://discord.com/invite/JDjbfp6q2G) 🧑‍🤝‍🧑
 
 
 <br>
