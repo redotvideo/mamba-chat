@@ -50,7 +50,7 @@ if __name__ == "__main__":
     parser.add_argument("--learning_rate", type=float, default=5e-5)
     parser.add_argument("--batch_size", type=int, default=4)
     parser.add_argument("--data_path", type=str, default="./data/ultrachat_small.jsonl")
-    parser.add_argument("--num_epochs", type=str, default=1)
+    parser.add_argument("--num_epochs", type=int, default=1)
     args = parser.parse_args()
 
     run(args)
