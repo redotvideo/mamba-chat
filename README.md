@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 <br>
 
-**Talk to Mamba-Chat:**
+**Talk to Mamba-Chat (CLI chatbot):**
 ```
 python chat.py
 ```
