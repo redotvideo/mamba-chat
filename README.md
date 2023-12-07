@@ -14,7 +14,9 @@ To learn more, you can:
 
 ## Run Mamba-Chat
 
-We provide code for testing and fine-tuning our model. Here are the steps to get started:
+We provide code for testing and fine-tuning our model. Here are the steps to get started and what you can do with it:
+
+<br>
 
 
 **Clone repository and install dependencies:**
