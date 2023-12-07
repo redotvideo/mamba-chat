@@ -39,5 +39,5 @@ python chat.py
 
 **Fine-Tune Mamba (the base model) on a subset of the Ultrachat dataset:**
 ```
-python train_mamba.py
+python train_mamba.py --model state-spaces/mamba-2.8b --tokenizer EleutherAI/gpt-neox-20b --learning_rate 5e-5 --batch_size 4 --data_path ./data/ultrachat_small.jsonl --num_epochs 3
 ```
