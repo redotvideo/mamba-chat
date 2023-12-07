@@ -28,11 +28,14 @@ cd mamba-chat
 pip install -r requirements.txt
 ```
 
+<br>
 
 **Talk to Mamba-Chat:**
 ```
 python chat.py
 ```
+
+<br>
 
 **Fine-Tune Mamba (the base model) on a subset of the Ultrachat dataset:**
 ```
