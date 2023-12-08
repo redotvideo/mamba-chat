@@ -8,6 +8,7 @@ Mamba-Chat is based on Mamba-2.8B and was fine-tuned on 16,000 samples of the [H
 
 - Take a look at the model on [Huggingface](https://huggingface.co/havenhq/mamba-chat) 🤗
 - Talk to us on the [Haven](https://haven.run/) Community [Discord](https://discord.com/invite/JDjbfp6q2G) 🧑‍🤝‍🧑
+- Talk to Mamba-Chat on [Google Colab](https://colab.research.google.com/drive/1dUlEYnRbgJYg4_kofNpsCddLCh6vltNK?usp=sharing)
 
 
 <br>
