@@ -48,3 +48,15 @@ python train_mamba.py --model state-spaces/mamba-2.8b --tokenizer EleutherAI/gpt
 python train_mamba.py --model state-spaces/mamba-2.8b --tokenizer EleutherAI/gpt-neox-20b --learning_rate 5e-5 --batch_size 1 --gradient_accumulation_steps 4 --optim paged_adamw_8bit --data_path ./data/ultrachat_small.jsonl --num_epochs 3
 ```
 
+## Citation
+
+```
+bibtex
+@misc{haven2023mambachat,
+  title        = {Mamba-Chat},
+  author       = {Justus Mattern and Konstantin Hohr},
+  year         = {2023},
+  howpublished = {GitHub},
+  url          = {https://github.com/havenhq/mamba-chat}
+}
+```
