@@ -17,7 +17,7 @@ class MambaTrainer(Trainer):
 
         return lm_loss
 
-    def save_model(self, output_dir, _internal_call):
+    def save_model(self, output_dir, _internal_call: bool = False):
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
             
