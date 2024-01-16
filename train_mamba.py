@@ -1,15 +1,22 @@
-import torch
 import argparse
+import warnings
 
+import torch
 from mamba_ssm.models.mixer_seq_simple import MambaLMHeadModel
 from transformers import AutoTokenizer, TrainingArguments
+
 from trainer.data import ChatDataModule
 from trainer.mamba_trainer import MambaTrainer
 
 
 def run(args):
-        
-    model = MambaLMHeadModel.from_pretrained(args.model, dtype=torch.bfloat16, device="cuda")
+    if torch.cuda.is_bf16_supported(): # checks if bfloat16 is supported on the machine
+        dtype = torch.bfloat16
+    else:
+        dtype = torch.float32
+        warnings.warn("bfloat16 not supported, using float32 for model dtype.")
+
+    model = MambaLMHeadModel.from_pretrained(args.model, dtype=dtype, device="cuda")
 
     tokenizer = AutoTokenizer.from_pretrained(args.tokenizer)
     tokenizer.eos_token = "<|endoftext|>"
